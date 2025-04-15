@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --laranja-claro: #4028c7;
+    --alto-contraste-fundo: #ffffff;
+    --alto-contraste-texto: #030613;
+    --alto-contraste-link: #721313;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #03061e;
 }
 
 
@@ -24,13 +24,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #ffffff;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/1331859-Hogwarts-CastleHarry-Potter-HD-Wallpaper.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -74,18 +74,18 @@ section {
 }
 
 
-#tropicalia {
+#harrypotter {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
+    background: url('img/48-489868_dementor-harry-potter.png') top right no-repeat,
         url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
 
-#tropicalia .container {
+#harrypotter .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,17 +103,17 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #03061e;
 
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
+    background: url('img/48-489868_dementor-harry-potter.png') bottom right no-repeat;
+    background-size: 230px 230px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/1331859-Hogwarts-CastleHarry-Potter-HD-Wallpaper.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
